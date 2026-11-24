@@ -76,10 +76,4 @@ contract StudentAttendance {
 
         return (s.id, s.name, s.totalPresent);
     }
-
-    function getTotalStudents()
-        public view returns (uint256)
-    {
-        return studentCount;
-    }
 }
